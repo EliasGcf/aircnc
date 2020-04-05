@@ -59,6 +59,7 @@ Faça um clone desse repositório.
 ### Pré-requisitos
 
 - [Node.js](https://nodejs.org/en/)
+- [MongoDB](https://www.mongodb.com/)
 - [Yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/)
 - [Expo](https://expo.io/)
 
@@ -66,6 +67,7 @@ Faça um clone desse repositório.
 
 - A partir da raiz do projeto, entre na pasta rodando `cd backend`;
 - Rode `yarn` para instalar sua dependências;
+- Edite o arquivo `backend/src/index.js` e em `mongoose.connect` coloque a sua URL de conexão com o MongoDB;
 - Rode `yarn dev` para iniciar o servidor;
 
 ### Web
