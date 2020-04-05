@@ -99,7 +99,7 @@ Para abrir o arquivo no formato `.sketch` em qualquer sistema operacional utiliz
 
 ```bash
 # Clone o seu fork
-$ git clone url-do-seu-fork && cd be-the-hero
+$ git clone url-do-seu-fork && cd aircnc
 
 # Crie uma branch com sua feature
 $ git checkout -b minha-feature
