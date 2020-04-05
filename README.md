@@ -64,7 +64,7 @@ Faça um clone desse repositório.
 
 ### Backend
 
-- A partir da raiz do projeto, entre na pasta rodando `cd server`;
+- A partir da raiz do projeto, entre na pasta rodando `cd backend`;
 - Rode `yarn` para instalar sua dependências;
 - Rode `yarn dev` para iniciar o servidor;
 
