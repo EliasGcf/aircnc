@@ -7,21 +7,15 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EliasGcf/aircnc">
+  <a href="https://www.linkedin.com/in/eliasgcf/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Elias%20Gabriel-%23F05A5B"></a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/aircnc">
-  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/aircnc?color=%23F05A5B">
+
   <a href="https://github.com/EliasGcf/aircnc/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/aircnc">
-  </a>
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/aircnc?color=%23F05A5B"></a>
 
-  <a href="https://github.com/EliasGcf/aircnc/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/aircnc">
-  </a>
-
-  <a href="https://github.com/EliasGcf/aircnc/blob/master/LICENSE">
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-  </a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/aircnc?color=%23F05A5B">
 </p>
 
 <p align="center">
@@ -121,4 +115,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Feito com 💜 by [EliasGcf](https://www.linkedin.com/in/eliasgcf/)
+Feito com 💜 &nbsp;by &nbsp;[EliasGcf](https://www.linkedin.com/in/eliasgcf/)
