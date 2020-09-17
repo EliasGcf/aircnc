@@ -1,0 +1,18 @@
+{
+  "name": "aircnc",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:EliasGcf/aircnc.git",
+  "author": "Elias Gabriel <eliasgabrielcf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "yarn workspace @aircnc/server",
+    "web": "yarn workspace @aircnc/web",
+    "mobile": "yarn workspace @aircnc/mobile"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
