@@ -19,12 +19,12 @@
 </p>
 
 <p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 
 <br />
@@ -33,86 +33,119 @@
   <img alt="Frontend" src=".github/aircnc.png" width="100%">
 </p>
 
-## 💻 Projeto
+## 💻 About the project
 
-O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período.
+<!-- O Aircnc é um projeto que visa conectar empresas que querem abrir spots e desenvolvedores que procuram um lugar para trocar ideias com devs, conhecer a empresa e trabalhar lá por um período. -->
 
-## 🚀 Tecnologias
+Aircnc is a project that aims to connect companies that want to open spots and developers looking for a place to exchange ideas with devs, get to know the company and work there for a period.
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies
+
+Technologies that I used to develop this application
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
-## 💻 Instalação, execução e desenvolvimento
+## 💻 Getting started
 
-Faça um clone desse repositório.
-
-### Pré-requisitos
+### Requirements
 
 - [Node.js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
-- [Yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/)
+- [Yarn](https://yarnpkg.com/)
 - [Expo](https://expo.io/)
+
+**Clone the project and access the folder**
+
+```bash
+$ git clone https://github.com/EliasGcf/aircnc.git && cd aircnc
+```
+
+**Install dependencies**
+
+```bash
+$ yarn
+```
+
+**Follow the steps below**
 
 ### Backend
 
-- A partir da raiz do projeto, entre na pasta rodando `cd backend`;
-- Rode `yarn` para instalar sua dependências;
-- Edite o arquivo `backend/src/index.js` e em `mongoose.connect` coloque a sua URL de conexão com o MongoDB;
-- Rode `yarn dev` para iniciar o servidor;
+```bash
+# Edit 'packages/server/src/server.js' and change URL_CONNECTION_MONGO
+# to your MongoDB URL
+
+# To finish, run the api service
+$ yarn server dev
+
+# Well done, project is started!
+```
 
 ### Web
 
-_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+_Obs.: Before to continue, be sure to have the API running_
 
-- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd frontend`;
-- Rode `yarn` para instalar as dependências;
-- Rode `yarn start` para iniciar o client web;
+```bash
+# Be sure the file 'packages/web/src/services/api.js'
+# have the IP to your API
+
+# Start the client
+$ yarn web start
+```
 
 ### Mobile
 
-_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+_Obs.: Before to continue, be sure to have the API running_
 
-- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd mobile`;
-- Rode `yarn` para instalar as dependências;
-- Edite o arquivo `mobile/src/services/api.js`, alterando `baseURL` para o IP correspondente a máquina que estiver executando o `backend`;
-- Rode `yarn start` ou `expo start` para iniciar o bundle com o expo;
-- Caso vá utilizar emulador, basta clicar na opção `Run on ...`;
-- Caso vá utilizar seu smartphone, com o app do expo escanei o QRCODE;
+```bash
+# Be sure the file 'packages/mobile/src/services/api.js'
+# have the IP to your API
+
+# Start the expo service and scan the QR code with Expo Client
+$ yarn mobile start
+```
 
 ## 🔖 Layout
 
-Você pode baixar o layout do projeto no formato `.sketch` através [desse link](https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/semana-omnistack/aircnc.sketch).
+You can download the project layout [here](https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/semana-omnistack/aircnc.sketch).
 
-Para abrir o arquivo no formato `.sketch` em qualquer sistema operacional utilize a ferramenta [Figma](https://www.figma.com/).
+To open `.sketch` extension in any operating system, you can use [Figma](https://www.figma.com/).
 
-## 🤔 Como contribuir
+## 🤔 How to contribute
 
-**Faça um fork deste repositório**
+**Make a fork of this repository**
 
 ```bash
-# Clone o seu fork
-$ git clone url-do-seu-fork && cd aircnc
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
 
-# Crie uma branch com sua feature
-$ git checkout -b minha-feature
-
-# Faça o commit das suas alterações
-$ git commit -m 'feat: Minha nova feature'
-
-# Faça o push para a sua branch
-$ git push origin minha-feature
+$ gh repo fork EliasGcf/aircnc
 ```
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+**Follow the steps below**
 
-## 📝 Licença
+```bash
+# Clone your fork
+$ git clone your-fork-url && cd aircnc
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+# Create a branch with your feature
+$ git checkout -b my-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Feito com 💜 &nbsp;by &nbsp;[EliasGcf](https://www.linkedin.com/in/eliasgcf/)
+Made with 💜&nbsp; by Elias Gabriel 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/eliasgcf/)
